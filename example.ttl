@@ -1,0 +1,92 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://example.com/> .
+
+<http://example.com/X> a rdfs:Class .
+<http://example.com/Y> a rdfs:Class .
+<http://example.com/Z> a rdfs:Class .
+
+<http://example.com/p1>
+  a rdf:Property ;
+  rdfs:label "p1" .
+
+<http://example.com/p2>
+  a rdf:Property ;
+  rdfs:label "p2" .
+
+<http://example.com/p3>
+  a rdf:Property ;
+  rdfs:label "p3" .
+
+<http://example.com/d>
+  a rdf:Property ;
+  rdfs:label "d" .
+
+<http://example.com/X1>
+  a <http://example.com/X> ;
+  ns0:p1 ns0:Y1 ;
+  ns0:d "1", "2" .
+
+ns0:X2
+  a ns0:X ;
+  ns0:p1 ns0:Y1 ;
+  ns0:d "1", "2" .
+
+ns0:Y1
+  a ns0:Y ;
+  ns0:d "1", "2", "3", "4", "5", "6" .
+
+ns0:Y2
+  a ns0:Y ;
+  ns0:p2 ns0:Y1 ;
+  ns0:d "1" .
+
+ns0:Z1
+  a ns0:Z ;
+  ns0:d "1" ;
+  ns0:p3 ns0:Y2 .
+
+ns0:Z2
+  a ns0:Z ;
+  ns0:d "1" ;
+  ns0:p3 ns0:Y2 .
+
+ns0:Z3
+  a ns0:Z ;
+  ns0:d "1" ;
+  ns0:p3 ns0:Y2 .
+
+ns0:Z4
+  a ns0:Z ;
+  ns0:d "1" ;
+  ns0:p3 ns0:Y2 .
+
+ns0:Z5
+  a ns0:Z ;
+  ns0:d "1" ;
+  ns0:p3 ns0:Y2 .
+
+ns0:Z6
+  a ns0:Z ;
+  ns0:d "1" ;
+  ns0:p3 ns0:Y2 .
+
+ns0:Z7
+  a ns0:Z ;
+  ns0:d "1" ;
+  ns0:p3 ns0:Y2 .
+
+ns0:Z8
+  a ns0:Z ;
+  ns0:d "1" ;
+  ns0:p3 ns0:Y2 .
+
+ns0:Z9
+  a ns0:Z ;
+  ns0:d "1" ;
+  ns0:p3 ns0:Y2 .
+
+ns0:Z10
+  a ns0:Z ;
+  ns0:d "1" ;
+  ns0:p3 ns0:Y2 .
