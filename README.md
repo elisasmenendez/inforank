@@ -1,4 +1,4 @@
-# Inforank - Novel Node Importance Measures to Improve Keyword Search over RDF Graphs
+# Inforank
 
 
 Check how to compute InfoRank with Google Colab:
