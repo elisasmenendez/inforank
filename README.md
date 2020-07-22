@@ -9,5 +9,5 @@ Check how to compute classic PageRank using SPARQL queries:
 - https://colab.research.google.com/github/elisasmenendez/inforank/blob/master/pagerank.ipynb
 
 
-Datasets and benchmarks are available at:
+Datasets and benchmarks available at:
 - https://sites.google.com/view/quira
